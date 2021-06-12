@@ -1,5 +1,10 @@
 import React from "react";
+import CoursePreviewItem from "./CoursePreviewItem";
 
 export default function CoursePreview() {
-  return <div></div>;
+  return (
+    <div>
+      <CoursePreviewItem />
+    </div>
+  );
 }
